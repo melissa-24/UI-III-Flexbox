@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .main {width: 75%}
 .thenav {display: flex; /*Stretch goal #1*/
 	position: fixed;
+	z-index: 1;
 	width: 100%;
 	background-color: green;
   	background-image: radial-gradient(white, green, white);}
@@ -137,15 +138,25 @@ hr {width: 90%;
 	display: flex;
 	justify-content: space-evenly;}
 .center{margin: auto;}
+.row2 {display: flex;
+	position: relative;
+	flex-direction: row;}
 .services {display: flex;
+	flex-direction: column;
 	width: 30%;
 	padding: 25px;}
 .product {display: flex;
+	flex-direction: column;
 	width: 30%;
 	padding: 25px;}
 .vision {display: flex;
+	flex-direction: column;
 	width: 30%;
 	padding: 25px;}
-.contact {padding: 25px;}
+.contact {padding: 25px;
+	display: flex;
+	position: relative;
+	top: 20px;
+	flex-direction: column;}
 .footer {text-align: center;
 	padding: 25px;}
