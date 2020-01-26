@@ -91,11 +91,20 @@ h1, h2, h3, h4, h5 {
 		75%  {background-color:green; left:0px; top:200px;}
 		100% {background-color:red; left:0px; top:0px;}
 	  }
+.servicesimg {display: flex;
+	position: relative;
+	top: 60px;
+	justify-content: space-evenly;}
 .heading{display:flex;
 	position: relative;
 	top: 60px;
 	flex-direction: row;
 	justify-content: space-evenly;}
+.servicesheading {display: flex;
+	position: relative;
+	top: 50px;
+	flex-direction: column;
+	height: 90px;}
 .header{display: flex;
 	flex-direction: column;
 	width: 50%;
@@ -108,11 +117,22 @@ h1, h2, h3, h4, h5 {
 	padding: 70px;
 	font-size: 60px;}
 h1 {font-size: 80px;}
+h2 {font-size: 30px;}
+h3 {font-size: 20px;}
+.content {display: flex;
+	position: relative:}
 .button {display: flex;
 	align-self: center;
 	border: 2px solid black;
 	padding: 10px;
 	width: 200px;}
+.button2 {display: flex;
+	border: 2px solid black;
+	align-self: baseline;
+	padding: 10px 10px 10px 20px;
+	width: 150px;
+	margin-top: 10px;
+	background-color: white;}
 .img2 {display: flex;
 	top: 150px;
 	padding: 20px 0 20px 0;}
@@ -122,6 +142,22 @@ hr {width: 90%;
 .row1{display: flex;
 	position: relative;
 	top: 20px;
+	flex-direction: row;}
+.servicesrow1 {display: flex;
+	position: relative;
+	top: 20px;
+	flex-direction: row;
+	justify-content: space-evenly;}
+.column1 {display: flex;
+	position: relative;
+	margin: 20px;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: lightgrey;
+	border:2px solid black;
+	padding: 20px;}
+.section {display: flex;
+	position: relative;
 	flex-direction: row;}
 .features {display: flex;
 	flex-direction: column;
