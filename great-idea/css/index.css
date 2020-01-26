@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style-type: disc;
 }
 blockquote, q {
 	quotes: none;
@@ -156,8 +156,16 @@ hr {width: 90%;
 	background-color: lightgrey;
 	border:2px solid black;
 	padding: 20px;}
+.column2 {display: flex;
+	position: relative;
+	margin: 30px;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 20px;}
 .section {display: flex;
 	position: relative;
+	width: 80%;
+	justify-content: space-evenly;
 	flex-direction: row;}
 .features {display: flex;
 	flex-direction: column;
